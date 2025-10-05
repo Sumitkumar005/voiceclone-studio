@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.log
+*.tmp
+/temp/
+/tmp/
+
+# NeuTTS models cache (HUGE files)
+neutts-air/
+*.gguf
+*.bin
+*.safetensors
+
+# Hugging Face cache
+.cache/
+
+# PyTorch
+*.pth
+*.pt
