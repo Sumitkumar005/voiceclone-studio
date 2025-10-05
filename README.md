@@ -42,3 +42,5 @@ cp .env.example .env
 
 # Run server
 uvicorn app.main:app --reload
+
+credit goes to Neutts-air team
